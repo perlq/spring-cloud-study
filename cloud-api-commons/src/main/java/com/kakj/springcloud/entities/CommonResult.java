@@ -13,4 +13,6 @@ public class CommonResult<T> implements Serializable {
     private  Integer code;
     private  String massge;
     private  T data;
+
+
 }

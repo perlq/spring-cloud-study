@@ -13,7 +13,7 @@ spring:
         file-extension: yml  #指定yaml格式的配置
 #        group: TEST_GROUP
         group: DEV_GROUP
-        namespace: c8e50f76-7285-424d-8418-59371dcab2c2
+        namespace: 29c249c6-3218-4baf-9132-df568a979566
 
 # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file.extension}
 # nacos-config-client-dev.yml
