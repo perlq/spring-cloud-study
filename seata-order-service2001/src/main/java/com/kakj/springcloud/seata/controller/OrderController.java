@@ -24,8 +24,6 @@ public class OrderController{
        public CommonResult create(Order order)
        {
 
-           long i = 1;
-           order.setId(++i);
            orderService.create(order);
                return new CommonResult(200,"订单创建成功");
         }
